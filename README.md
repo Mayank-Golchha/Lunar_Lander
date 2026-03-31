@@ -7,7 +7,7 @@ cd Lunar_Lander
 
 ## Installation
 
-pip install neat-python gymnasium[box2d]
+pip install gymnasium[box2d]
 
 ## Train
 

@@ -20,10 +20,12 @@ from policy_team import policy_action, get_policy_size
 # Hyper-parameters
 # ---------------------------------------------------------------------------
 POPULATION_SIZE   = 50        # Number of antithetic pairs  (actual evals = 2 * POPULATION_SIZE)
+# POPULATION_SIZE   = 70        # Number of antithetic pairs  (actual evals = 2 * POPULATION_SIZE)
 SIGMA             = 0.05      # Standard deviation of perturbation noise
 LEARNING_RATE     = 0.03      # ES gradient step size
-NUM_GENERATIONS   = 500       # Total generations to run
+NUM_GENERATIONS   = 1000       # Total generations to run
 EPISODES_PER_EVAL = 3         # Episodes averaged per candidate evaluation
+# EPISODES_PER_EVAL = 5         # Episodes averaged per candidate evaluation
 MAX_STEPS         = 1000      # Max environment steps per episode
 REWARD_THRESHOLD  = 200.0     # Stop early if mean reward exceeds this
 PRINT_EVERY       = 10        # Log every N generations

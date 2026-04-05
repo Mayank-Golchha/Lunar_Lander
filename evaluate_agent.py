@@ -37,6 +37,7 @@ def main():
 
     # Load the policy parameters from the file.
     policy = np.load(args.filename)
+    print("Policy shape:", policy.shape)
     
     # Dynamically import the module that defines policy_action.
     try:

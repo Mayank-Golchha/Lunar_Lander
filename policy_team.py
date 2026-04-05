@@ -68,3 +68,4 @@ def policy_action(policy, observation):
     """
     logits = forward(policy, observation)
     return int(np.argmax(logits))
+    # return int(np.argmax(logits + np.random.randn(4) * 0.01))
